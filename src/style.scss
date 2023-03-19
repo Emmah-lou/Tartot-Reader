@@ -1,0 +1,78 @@
+// Define variables for reuse
+$primary-color: #c6946c;
+$secondary-color: #283655;
+$background-color: #f5f5f5;
+$font-family: Arial, sans-serif;
+
+// Navbar styles
+nav {
+  background-color: $secondary-color;
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Card styles
+.card {
+  border: 2px solid $primary-color;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  .card-title {
+    color: $secondary-color;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .card-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .card-text {
+    margin-bottom: 0;
+    &:last-of-type {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+// Sidebar styles
+.sidebar {
+  background-color: $secondary-color;
+  color: white;
+  padding: 20px;
+  h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin-bottom: 10px;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// Body styles
+body {
+  background-color: $background-color;
+  font-family: $font-family;
+}
+
+// Footer styles
+footer {
+  background-color: $secondary-color;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

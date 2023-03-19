@@ -36,7 +36,7 @@ var TarorCard = function TarorCard(props) {
           "Reversed: ",
           props.reversed
         ),
-        React.createElement("img", { className: "img-fluid", src: props.image, alt: "Card image" }),
+        React.createElement("img", { className: "card-image img-fluid", src: props.image, alt: "Card image" }),
         React.createElement(
           "p",
           { className: "card-text" },

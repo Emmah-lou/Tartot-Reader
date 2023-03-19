@@ -12,7 +12,7 @@ const TarorCard = (props) => {
           <h6 className="card-subtitle mb-2 text-muted">Numerology:{props.number}</h6>
           <p className="card-text">Meaning: {props.meaning}</p>
           <p className="card-text">Reversed: {props.reversed}</p>
-          <img className='img-fluid' src={props.image} alt="Card image" />
+          <img className='card-image img-fluid' src={props.image} alt="Card image" />
           <p className='card-text'>{props.keywords}</p>
         </div>
       </div>
