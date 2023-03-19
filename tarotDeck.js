@@ -222,7 +222,7 @@ var tarotDeck = [{
 }, {
   name: 'Ace of Wands',
   number: 1,
-  image: '',
+  image: 'src/assets/TarotDeck/AceOfWands.png',
   meaning: 'Creation, inspiration, new beginnings',
   reversed: 'Lack of direction, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -232,7 +232,7 @@ var tarotDeck = [{
 }, {
   name: 'Two of Wands',
   number: 2,
-  image: '',
+  image: 'src/assets/TarotDeck/2ofWands.png',
   meaning: 'Expansion, adventure, exploration',
   reversed: 'Lack of direction, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -242,7 +242,7 @@ var tarotDeck = [{
 }, {
   name: 'Three of Wands',
   number: 3,
-  image: '',
+  image: 'src/assets/TarotDeck/3ofWands.png',
   meaning: 'Expansion, adventure, exploration',
   reversed: 'Lack of direction, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -252,7 +252,7 @@ var tarotDeck = [{
 }, {
   name: 'Four of Wands',
   number: 4,
-  image: '',
+  image: 'src/assets/TarotDeck/4ofWands.png',
   meaning: 'Celebration, success, achievement',
   reversed: 'Lack of celebration, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -262,7 +262,7 @@ var tarotDeck = [{
 }, {
   name: 'Five of Wands',
   number: 5,
-  image: '',
+  image: 'src/assets/TarotDeck/5ofWands.png',
   meaning: 'Competition, conflict, struggle',
   reversed: 'Lack of competition, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -272,7 +272,7 @@ var tarotDeck = [{
 }, {
   name: 'Six of Wands',
   number: 6,
-  image: '',
+  image: 'src/assets/TarotDeck/6ofWands.png',
   meaning: 'Victory, success, recognition',
   reversed: 'Lack of recognition, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -282,7 +282,7 @@ var tarotDeck = [{
 }, {
   name: 'Seven of Wands',
   number: 7,
-  image: '',
+  image: 'src/assets/TarotDeck/7ofWands.png',
   meaning: 'Defending your position, standing your ground',
   reversed: 'Lack of defense, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -292,7 +292,7 @@ var tarotDeck = [{
 }, {
   name: 'Eight of Wands',
   number: 8,
-  image: '',
+  image: 'src/assets/TarotDeck/8ofWands.png',
   meaning: 'Rapid action, progress, movement',
   reversed: 'Lack of progress',
   astrology: 'Aries',
@@ -302,7 +302,7 @@ var tarotDeck = [{
 }, {
   name: 'Nine of Wands',
   number: 9,
-  image: '',
+  image: 'src/assets/TarotDeck/9ofWands.png',
   meaning: 'Defending your position, standing your ground',
   reversed: 'Lack of defense, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -312,7 +312,7 @@ var tarotDeck = [{
 }, {
   name: 'Ten of Wands',
   number: 10,
-  image: '',
+  image: 'src/assets/TarotDeck/10ofWands.png',
   meaning: 'Overwhelm, burden, responsibility',
   reversed: 'Lack of responsibility, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -322,7 +322,7 @@ var tarotDeck = [{
 }, {
   name: 'Page of Wands',
   number: 11,
-  image: '',
+  image: 'src/assets/TarotDeck/PageOfWands.png',
   meaning: 'Enthusiasm, creativity, inspiration',
   reversed: 'Lack of enthusiasm, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -332,7 +332,7 @@ var tarotDeck = [{
 }, {
   name: 'Knight of Wands',
   number: 12,
-  image: '',
+  image: 'src/assets/TarotDeck/KnightofWands.png',
   meaning: 'Action, passion, movement',
   reversed: 'Lack of action, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -342,7 +342,7 @@ var tarotDeck = [{
 }, {
   name: 'Queen of Wands',
   number: 13,
-  image: '',
+  image: 'src/assets/TarotDeck/QueenofWands.png',
   meaning: 'Passion, creativity, inspiration',
   reversed: 'Lack of passion, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -352,7 +352,7 @@ var tarotDeck = [{
 }, {
   name: 'King of Wands',
   number: 14,
-  image: '',
+  image: 'src/assets/TarotDeck/KingofWands.png',
   meaning: 'Passion, creativity, inspiration',
   reversed: 'Lack of passion, stagnation, blocked creativity',
   astrology: 'Aries',
@@ -362,7 +362,7 @@ var tarotDeck = [{
 }, {
   name: 'Ace of Cups',
   number: 1,
-  image: '',
+  image: 'src/assets/TarotDeck/AceofCups.png',
   meaning: 'Love, compassion, creativity',
   reversed: 'Lack of love, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -372,7 +372,7 @@ var tarotDeck = [{
 }, {
   name: 'Two of Cups',
   number: 2,
-  image: '',
+  image: 'src/assets/TarotDeck/2ofCups.png',
   meaning: 'Love, compassion, creativity',
   reversed: 'Lack of love, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -382,7 +382,7 @@ var tarotDeck = [{
 }, {
   name: 'Three of Cups',
   number: 3,
-  image: '',
+  image: 'src/assets/TarotDeck/3ofCups.png',
   meaning: 'Celebration, friendship, community',
   reversed: 'Lack of celebration, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -392,7 +392,7 @@ var tarotDeck = [{
 }, {
   name: 'Four of Cups',
   number: 4,
-  image: '',
+  image: 'src/assets/TarotDeck/4ofCups.png',
   meaning: 'Celebration, success, achievement',
   reversed: 'Lack of celebration, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -402,7 +402,7 @@ var tarotDeck = [{
 }, {
   name: 'Five of Cups',
   number: 5,
-  image: '',
+  image: 'src/assets/TarotDeck/5ofCups.png',
   meaning: 'Loss, grief, sadness',
   reversed: 'Lack of loss, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -412,7 +412,7 @@ var tarotDeck = [{
 }, {
   name: 'Six of Cups',
   number: 6,
-  image: '',
+  image: 'src/assets/TarotDeck/6ofCups.png',
   meaning: 'Celebration, success, achievement',
   reversed: 'Lack of celebration, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -422,7 +422,7 @@ var tarotDeck = [{
 }, {
   name: 'Seven of Cups',
   number: 7,
-  image: '',
+  image: 'src/assets/TarotDeck/7ofCups.png',
   meaning: 'Fantasy, imagination, creativity',
   reversed: 'Lack of fantasy, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -432,7 +432,7 @@ var tarotDeck = [{
 }, {
   name: 'Eight of Cups',
   number: 8,
-  image: '',
+  image: 'src/assets/TarotDeck/8ofCups.png',
   meaning: 'Rapid action, progress, movement',
   reversed: 'Lack of progress, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -442,7 +442,7 @@ var tarotDeck = [{
 }, {
   name: 'Nine of Cups',
   number: 9,
-  image: '',
+  image: 'src/assets/TarotDeck/9ofCups.png',
   meaning: 'Celebration, success, achievement',
   reversed: 'Lack of celebration, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -452,7 +452,7 @@ var tarotDeck = [{
 }, {
   name: 'Ten of Cups',
   number: 10,
-  image: '',
+  image: 'src/assets/TarotDeck/10ofCups.png',
   meaning: 'Celebration, success, achievement',
   reversed: 'Lack of celebration, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -462,7 +462,7 @@ var tarotDeck = [{
 }, {
   name: 'Page of Cups',
   number: 11,
-  image: '',
+  image: 'src/assets/TarotDeck/PageofCups.png',
   meaning: 'Imagination, creativity, inspiration',
   reversed: 'Lack of imagination, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -472,7 +472,7 @@ var tarotDeck = [{
 }, {
   name: 'Knight of Cups',
   number: 12,
-  image: '',
+  image: 'src/assets/TarotDeck/KnightOfCups.png',
   meaning: 'Imagination, creativity, inspiration',
   reversed: 'Lack of imagination, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -482,7 +482,7 @@ var tarotDeck = [{
 }, {
   name: 'Queen of Cups',
   number: 13,
-  image: '',
+  image: 'src/assets/TarotDeck/QueenOfCups.png',
   meaning: 'Imagination, creativity, inspiration',
   reversed: 'Lack of imagination, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -492,7 +492,7 @@ var tarotDeck = [{
 }, {
   name: 'King of Cups',
   number: 14,
-  image: '',
+  image: 'src/assets/TarotDeck/KingofCups.png',
   meaning: 'Imagination, creativity, inspiration',
   reversed: 'Lack of imagination, stagnation, blocked creativity',
   astrology: 'Cancer',
@@ -502,7 +502,7 @@ var tarotDeck = [{
 }, {
   name: 'Ace of Swords',
   number: 1,
-  image: '',
+  image: 'src/assets/TarotDeck/AceofSwords.png',
   meaning: 'Truth, clarity, wisdom',
   reversed: 'Lack of truth, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -512,7 +512,7 @@ var tarotDeck = [{
 }, {
   name: 'Two of Swords',
   number: 2,
-  image: '',
+  image: 'src/assets/TarotDeck/2ofSwords.png',
   meaning: 'Balance, harmony, peace',
   reversed: 'Lack of balance, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -522,7 +522,7 @@ var tarotDeck = [{
 }, {
   name: 'Three of Swords',
   number: 3,
-  image: '',
+  image: 'src/assets/TarotDeck/3ofSwords.png',
   meaning: 'Heartbreak, sadness, grief',
   reversed: 'Lack of heartbreak, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -532,7 +532,7 @@ var tarotDeck = [{
 }, {
   name: 'Four of Swords',
   number: 4,
-  image: '',
+  image: 'src/assets/TarotDeck/4ofSwords.png',
   meaning: 'Rest, relaxation, meditation',
   reversed: 'Lack of rest, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -542,7 +542,7 @@ var tarotDeck = [{
 }, {
   name: 'Five of Swords',
   number: 5,
-  image: '',
+  image: 'src/assets/TarotDeck/5ofSwords.png',
   meaning: 'Conflict, competition, struggle',
   reversed: 'Lack of conflict, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -552,7 +552,7 @@ var tarotDeck = [{
 }, {
   name: 'Six of Swords',
   number: 6,
-  image: '',
+  image: 'src/assets/TarotDeck/6ofSwords.png',
   meaning: 'Journey, travel, transition',
   reversed: 'Lack of journey, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -562,7 +562,7 @@ var tarotDeck = [{
 }, {
   name: 'Seven of Swords',
   number: 7,
-  image: '',
+  image: 'src/assets/TarotDeck/7ofSwords.png',
   meaning: 'Deception, trickery, manipulation',
   reversed: 'Lack of deception, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -572,7 +572,7 @@ var tarotDeck = [{
 }, {
   name: 'Eight of Swords',
   number: 8,
-  image: '',
+  image: 'src/assets/TarotDeck/8ofSwords.png',
   meaning: 'Imprisonment, restriction, limitation',
   reversed: 'Lack of imprisonment, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -582,7 +582,7 @@ var tarotDeck = [{
 }, {
   name: 'Nine of Swords',
   number: 9,
-  image: '',
+  image: 'src/assets/TarotDeck/9ofSwords.png',
   meaning: 'Anxiety, worry, fear',
   reversed: 'Lack of anxiety, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -592,7 +592,7 @@ var tarotDeck = [{
 }, {
   name: 'Ten of Swords',
   number: 10,
-  image: '',
+  image: 'src/assets/TarotDeck/10ofSwords.png',
   meaning: 'Defeat, failure, loss',
   reversed: 'Lack of defeat, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -602,7 +602,7 @@ var tarotDeck = [{
 }, {
   name: 'Page of Swords',
   number: 11,
-  image: '',
+  image: 'src/assets/TarotDeck/PageofSwords.png',
   meaning: 'Truth, clarity, wisdom',
   reversed: 'Lack of truth, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -612,7 +612,7 @@ var tarotDeck = [{
 }, {
   name: 'Knight of Swords',
   number: 12,
-  image: '',
+  image: 'src/assets/TarotDeck/KnightofSowrds.png',
   meaning: 'Truth, clarity, wisdom',
   reversed: 'Lack of truth, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -622,7 +622,7 @@ var tarotDeck = [{
 }, {
   name: 'Queen of Swords',
   number: 13,
-  image: '',
+  image: 'src/assets/TarotDeck/QueenOfSwords.png',
   meaning: 'Truth, clarity, wisdom',
   reversed: 'Lack of truth, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -632,7 +632,7 @@ var tarotDeck = [{
 }, {
   name: 'King of Swords',
   number: 14,
-  image: '',
+  image: 'src/assets/TarotDeck/KingOfSwords.png',
   meaning: 'Truth, clarity, wisdom',
   reversed: 'Lack of truth, stagnation, blocked creativity',
   astrology: 'Libra',
@@ -642,7 +642,7 @@ var tarotDeck = [{
 }, {
   name: 'Ace of Pentacles',
   number: 1,
-  image: '',
+  image: 'src/assets/TarotDeck/AceofPentacles.png',
   meaning: 'Abundance, prosperity, wealth',
   reversed: 'Lack of abundance, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -652,7 +652,7 @@ var tarotDeck = [{
 }, {
   name: 'Two of Pentacles',
   number: 2,
-  image: '',
+  image: 'src/assets/TarotDeck/2ofpentacleds.png',
   meaning: 'Balance, harmony, peace',
   reversed: 'Lack of balance, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -662,7 +662,7 @@ var tarotDeck = [{
 }, {
   name: 'Three of Pentacles',
   number: 3,
-  image: '',
+  image: 'src/assets/TarotDeck/3ofpentacles.png',
   meaning: 'Collaboration, teamwork, partnership',
   reversed: 'Lack of collaboration, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -672,7 +672,7 @@ var tarotDeck = [{
 }, {
   name: 'Four of Pentacles',
   number: 4,
-  image: '',
+  image: 'src/assets/TarotDeck/4ofpentacles.png',
   meaning: 'Materialism, greed, hoarding',
   reversed: 'Lack of materialism, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -682,7 +682,7 @@ var tarotDeck = [{
 }, {
   name: 'Five of Pentacles',
   number: 5,
-  image: '',
+  image: 'src/assets/TarotDeck/5ofpentacles.png',
   meaning: 'Poverty, scarcity, loss',
   reversed: 'Lack of poverty, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -692,7 +692,7 @@ var tarotDeck = [{
 }, {
   name: 'Six of Pentacles',
   number: 6,
-  image: '',
+  image: 'src/assets/TarotDeck/6ofpentacleds.png',
   meaning: 'Generosity, charity, giving',
   reversed: 'Lack of generosity, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -702,7 +702,7 @@ var tarotDeck = [{
 }, {
   name: 'Seven of Pentacles',
   number: 7,
-  image: '',
+  image: 'src/assets/TarotDeck/7ofpentacles.png',
   meaning: 'Hard work, patience, perseverance',
   reversed: 'Lack of hard work, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -712,7 +712,7 @@ var tarotDeck = [{
 }, {
   name: 'Eight of Pentacles',
   number: 8,
-  image: '',
+  image: 'src/assets/TarotDeck/8ofpentacles.png',
   meaning: 'Hard work, patience, perseverance',
   reversed: 'Lack of hard work, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -722,7 +722,7 @@ var tarotDeck = [{
 }, {
   name: 'Nine of Pentacles',
   number: 9,
-  image: '',
+  image: 'src/assets/TarotDeck/9ofpentacles.png',
   meaning: 'Luxury, comfort, pleasure',
   reversed: 'Lack of luxury, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -732,7 +732,7 @@ var tarotDeck = [{
 }, {
   name: 'Ten of Pentacles',
   number: 10,
-  image: '',
+  image: 'src/assets/TarotDeck/10ofpentacles.png',
   meaning: 'Wealth, prosperity, abundance',
   reversed: 'Lack of wealth, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -742,7 +742,7 @@ var tarotDeck = [{
 }, {
   name: 'Page of Pentacles',
   number: 11,
-  image: '',
+  image: 'src/assets/TarotDeck/PageOfPentacles.png',
   meaning: 'Wealth, prosperity, abundance',
   reversed: 'Lack of wealth, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -752,7 +752,7 @@ var tarotDeck = [{
 }, {
   name: 'Knight of Pentacles',
   number: 12,
-  image: '',
+  image: 'src/assets/TarotDeck/KnightofPentacles.png',
   meaning: 'Wealth, prosperity, abundance',
   reversed: 'Lack of wealth, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -762,7 +762,7 @@ var tarotDeck = [{
 }, {
   name: 'Queen of Pentacles',
   number: 13,
-  image: '',
+  image: 'src/assets/TarotDeck/QueenOfPentacles.png',
   meaning: 'Wealth, prosperity, abundance',
   reversed: 'Lack of wealth, stagnation, blocked creativity',
   astrology: 'Taurus',
@@ -772,7 +772,7 @@ var tarotDeck = [{
 }, {
   name: 'King of Pentacles',
   number: 14,
-  image: '',
+  image: 'src/assets/TarotDeck/KingofPentacles.png',
   meaning: 'Wealth, prosperity, abundance',
   reversed: 'Lack of wealth, stagnation, blocked creativity',
   astrology: 'Taurus',
