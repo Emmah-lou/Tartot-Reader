@@ -7,7 +7,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'New beginnings, adventure, opportunity',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Fool card represents new beginnings and the start of a new journey. The figure on the card is carefree and ready for adventure, with his head held high and a small bag slung over his shoulder. He is about to step off a cliff, but he does not seem to be worried or afraid. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to embrace change and take risks, even if they seem daunting at first. Reversed, the Fool can indicate carelessness or recklessness, so it is important to balance spontaneity with caution."
 }, {
   name: 'The Magician',
   number: 1,
@@ -17,7 +18,8 @@ var tarotDeck = [{
   astrology: 'Mercury',
   element: 'Air',
   keywords: 'Manifestation, creation, willpower',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Magician card represents the ability to manifest your desires into reality. The figure on the card is holding a wand in one hand and a pentacle in the other, which symbolizes the union of the physical and spiritual worlds. He is also surrounded by four suits of cards, which represent the four elements: fire, water, air, and earth. This card is associated with the element of air and the zodiac sign Gemini, which both represent communication and intellect. When this card appears in a reading, it is a reminder to use your creativity and intelligence to manifest your goals. Reversed, the Magician can indicate manipulation or illusion, so it is important to be aware of your motives and intentions."
 
 }, {
   name: 'The High Priestess',
@@ -28,7 +30,8 @@ var tarotDeck = [{
   astrology: 'Moon',
   element: 'Water',
   keywords: 'Intuition, mystery, wisdom',
-  majorArcana: true
+  majorArcana: true,
+  description: "The High Priestess card represents intuition and the unknown. The figure on the card is seated in a throne, with a veil covering her face. She is surrounded by two pillars, which represent the duality of the universe. This card is associated with the element of water and the zodiac sign Pisces, which both represent intuition and spirituality. When this card appears in a reading, it is a reminder to trust your intuition and follow your inner voice. Reversed, the High Priestess can indicate mistrust or doubt, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The Empress',
   number: 3,
@@ -38,7 +41,8 @@ var tarotDeck = [{
   astrology: 'Venus',
   element: 'Earth',
   keywords: 'Femininity, creativity, abundance',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Empress card represents femininity, creativity, and abundance. The figure on the card is seated on a throne, with a crown on her head and a scepter in her hand. She is surrounded by flowers and plants, which symbolize fertility and growth. This card is associated with the element of earth and the zodiac sign Taurus, which both represent stability and sensuality. When this card appears in a reading, it is a reminder to embrace your feminine side and nurture your creativity. Reversed, the Empress can indicate emotional dependency or overindulgence, so it is important to be aware of your motives and intentions."
 }, {
   name: 'The Emperor',
   number: 4,
@@ -48,7 +52,8 @@ var tarotDeck = [{
   astrology: 'Mars',
   element: 'Fire',
   keywords: 'Authority, structure, control',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Emperor card represents authority, structure, and control. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The Hierophant',
   number: 5,
@@ -58,7 +63,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Tradition, conformity, institutions',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Hierophant card represents tradition, conformity, and institutions. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The Lovers',
   number: 6,
@@ -68,7 +74,8 @@ var tarotDeck = [{
   astrology: 'Venus',
   element: 'Air',
   keywords: 'Love, harmony, relationships',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Lovers card represents love, harmony, and relationships. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The Chariot',
   number: 7,
@@ -78,7 +85,8 @@ var tarotDeck = [{
   astrology: 'Sun',
   element: 'Fire',
   keywords: 'Victory, control, willpower',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Chariot card represents victory, control, and willpower. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Strength',
   number: 8,
@@ -88,7 +96,8 @@ var tarotDeck = [{
   astrology: 'Leo',
   element: 'Fire',
   keywords: 'Courage, compassion, inner strength',
-  majorArcana: true
+  majorArcana: true,
+  description: "Strength card represents courage, compassion, and inner strength. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The Hermit',
   number: 9,
@@ -98,7 +107,8 @@ var tarotDeck = [{
   astrology: 'Virgo',
   element: 'Earth',
   keywords: 'Meditation, introspection, solitude',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Hermit card represents meditation, introspection, and solitude. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Wheel of Fortune',
   number: 10,
@@ -108,7 +118,8 @@ var tarotDeck = [{
   astrology: 'Jupiter',
   element: 'Air',
   keywords: 'Luck, karma, cycles',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Wheel of Fortune card represents luck, karma, and cycles. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Justice',
   number: 11,
@@ -118,7 +129,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Fairness, truth, cause and effect',
-  majorArcana: true
+  majorArcana: true,
+  description: "Justice card represents fairness, truth, and cause and effect. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The Hangman',
   number: 12,
@@ -128,7 +140,8 @@ var tarotDeck = [{
   astrology: 'Neptune',
   element: 'Water',
   keywords: 'Sacrifice, enlightenment, new perspective',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Hangman card represents sacrifice, enlightenment, and new perspective. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Death',
   number: 13,
@@ -138,7 +151,8 @@ var tarotDeck = [{
   astrology: 'Scorpio',
   element: 'Water',
   keywords: 'Transformation, rebirth, letting go',
-  majorArcana: true
+  majorArcana: true,
+  description: "Death card represents transformation, rebirth, and letting go. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Temperance',
   number: 14,
@@ -148,7 +162,8 @@ var tarotDeck = [{
   astrology: 'Sagittarius',
   element: 'Fire',
   keywords: 'Balance, moderation, patience',
-  majorArcana: true
+  majorArcana: true,
+  description: "Temperance card represents balance, moderation, and patience. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The Devil',
   number: 15,
@@ -158,7 +173,8 @@ var tarotDeck = [{
   astrology: 'Saturn',
   element: 'Earth',
   keywords: 'Addiction, materialism, control',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Devil card represents addiction, materialism, and control. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The Tower',
   number: 16,
@@ -168,7 +184,8 @@ var tarotDeck = [{
   astrology: 'Mars',
   element: 'Fire',
   keywords: 'Sudden change, upheaval, revelation',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Tower card represents sudden change, upheaval, and revelation. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The Star',
   number: 17,
@@ -178,7 +195,8 @@ var tarotDeck = [{
   astrology: 'Jupiter',
   element: 'Air',
   keywords: 'Hope, renewal, inspiration',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Star card represents hope, renewal, and inspiration. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The Moon',
   number: 18,
@@ -188,7 +206,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Illusions, fears, intuition',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Moon card represents illusions, fears, and intuition. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The Sun',
   number: 19,
@@ -198,7 +217,8 @@ var tarotDeck = [{
   astrology: 'Sun',
   element: 'Fire',
   keywords: 'Happiness, success, fulfillment',
-  majorArcana: true
+  majorArcana: true,
+  description: "The Sun card represents happiness, success, and fulfillment. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Judgement',
   number: 20,
@@ -208,7 +228,8 @@ var tarotDeck = [{
   astrology: 'Uranus',
   element: 'Air',
   keywords: 'Awakening, rebirth, atonement',
-  majorArcana: true
+  majorArcana: true,
+  description: "Judgement represents awakening, rebirth, and atonement. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'The World',
   number: 21,
@@ -218,7 +239,8 @@ var tarotDeck = [{
   astrology: 'Saturn',
   element: 'Earth',
   keywords: 'Completion, fulfillment, success',
-  majorArcana: true
+  majorArcana: true,
+  description: "The World represents completion, fulfillment, and success. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Ace of Wands',
   number: 1,
@@ -228,7 +250,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Creation, inspiration, new beginnings',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Ace of Wands represents creation, inspiration, and new beginnings. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Two of Wands',
   number: 2,
@@ -238,7 +261,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Expansion, adventure, exploration',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Two of Wands represents expansion, adventure, and exploration. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Three of Wands',
   number: 3,
@@ -248,7 +272,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Expansion, adventure, exploration',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Three of Wands represents expansion, adventure, and exploration. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Four of Wands',
   number: 4,
@@ -258,7 +283,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Celebration, success, achievement',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Four of Wands represents celebration, success, and achievement. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Five of Wands',
   number: 5,
@@ -268,7 +294,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Competition, conflict, struggle',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Five of Wands represents competition, conflict, and struggle. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Six of Wands',
   number: 6,
@@ -278,7 +305,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Victory, success, recognition',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Six of Wands represents victory, success, and recognition. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Seven of Wands',
   number: 7,
@@ -288,7 +316,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Defending your position, standing your ground',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Seven of Wands represents defending your position, standing your ground. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Eight of Wands',
   number: 8,
@@ -298,7 +327,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Rapid action, progress, movement',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Eight of Wands represents rapid action, progress, and movement. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Nine of Wands',
   number: 9,
@@ -308,7 +338,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Defending your position, standing your ground',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Nine of Wands represents defending your position, standing your ground. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Ten of Wands',
   number: 10,
@@ -318,7 +349,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Overwhelm, burden, responsibility',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Ten of Wands represents overwhelm, burden, and responsibility. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Page of Wands',
   number: 11,
@@ -328,7 +360,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Enthusiasm, creativity, inspiration',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Page of Wands represents enthusiasm, creativity, and inspiration. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Knight of Wands',
   number: 12,
@@ -338,7 +371,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Action, passion, movement',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Knight of Wands represents action, passion, and movement. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Queen of Wands',
   number: 13,
@@ -348,7 +382,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Passion, creativity, inspiration',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Queen of Wands represents passion, creativity, and inspiration. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'King of Wands',
   number: 14,
@@ -358,7 +393,8 @@ var tarotDeck = [{
   astrology: 'Aries',
   element: 'Fire',
   keywords: 'Passion, creativity, inspiration',
-  majorArcana: false
+  majorArcana: false,
+  description: "The King of Wands represents passion, creativity, and inspiration. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Ace of Cups',
   number: 1,
@@ -368,7 +404,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Love, compassion, creativity',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Ace of Cups represents love, compassion, and creativity. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Two of Cups',
   number: 2,
@@ -378,7 +415,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Love, compassion, creativity',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Two of Cups represents love, compassion, and creativity. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Three of Cups',
   number: 3,
@@ -388,7 +426,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Celebration, friendship, community',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Three of Cups represents celebration, friendship, and community. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Four of Cups',
   number: 4,
@@ -398,7 +437,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Celebration, success, achievement',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Four of Cups represents celebration, success, and achievement. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Five of Cups',
   number: 5,
@@ -408,7 +448,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Loss, grief, sadness',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Five of Cups represents loss, grief, and sadness. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Six of Cups',
   number: 6,
@@ -418,7 +459,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Celebration, success, achievement',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Six of Cups represents celebration, success, and achievement. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Seven of Cups',
   number: 7,
@@ -428,7 +470,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Fantasy, imagination, creativity',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Seven of Cups represents fantasy, imagination, and creativity. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Eight of Cups',
   number: 8,
@@ -438,7 +481,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Rapid action, progress, movement',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Eight of Cups represents rapid action, progress, and movement. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Nine of Cups',
   number: 9,
@@ -448,7 +492,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Celebration, success, achievement',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Nine of Cups represents celebration, success, and achievement. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Ten of Cups',
   number: 10,
@@ -458,7 +503,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Celebration, success, achievement',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Ten of Cups represents celebration, success, and achievement. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Page of Cups',
   number: 11,
@@ -468,7 +514,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Imagination, creativity, inspiration',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Page of Cups represents imagination, creativity, and inspiration. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Knight of Cups',
   number: 12,
@@ -478,7 +525,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Imagination, creativity, inspiration',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Knight of Cups represents imagination, creativity, and inspiration. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Queen of Cups',
   number: 13,
@@ -488,7 +536,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Imagination, creativity, inspiration',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Queen of Cups represents imagination, creativity, and inspiration. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'King of Cups',
   number: 14,
@@ -498,7 +547,8 @@ var tarotDeck = [{
   astrology: 'Cancer',
   element: 'Water',
   keywords: 'Imagination, creativity, inspiration',
-  majorArcana: false
+  majorArcana: false,
+  description: "The King of Cups represents imagination, creativity, and inspiration. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Ace of Swords',
   number: 1,
@@ -508,7 +558,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Truth, clarity, wisdom',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Ace of Swords represents truth, clarity, and wisdom. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Two of Swords',
   number: 2,
@@ -518,7 +569,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Balance, harmony, peace',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Two of Swords represents balance, harmony, and peace. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Three of Swords',
   number: 3,
@@ -528,7 +580,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Heartbreak, sadness, grief',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Three of Swords represents heartbreak, sadness, and grief. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Four of Swords',
   number: 4,
@@ -538,7 +591,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Rest, relaxation, meditation',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Four of Swords represents rest, relaxation, and meditation. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Five of Swords',
   number: 5,
@@ -548,7 +602,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Conflict, competition, struggle',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Five of Swords represents conflict, competition, and struggle. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Six of Swords',
   number: 6,
@@ -558,7 +613,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Journey, travel, transition',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Six of Swords represents journey, travel, and transition. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Seven of Swords',
   number: 7,
@@ -568,7 +624,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Deception, trickery, manipulation',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Seven of Swords represents deception, trickery, and manipulation. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Eight of Swords',
   number: 8,
@@ -578,7 +635,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Imprisonment, restriction, limitation',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Eight of Swords represents imprisonment, restriction, and limitation. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Nine of Swords',
   number: 9,
@@ -588,7 +646,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Anxiety, worry, fear',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Nine of Swords represents anxiety, worry, and fear. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Ten of Swords',
   number: 10,
@@ -598,7 +657,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Defeat, failure, loss',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Ten of Swords represents defeat, failure, and loss. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Page of Swords',
   number: 11,
@@ -608,7 +668,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Truth, clarity, wisdom',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Page of Swords represents truth, clarity, and wisdom. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Knight of Swords',
   number: 12,
@@ -618,7 +679,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Truth, clarity, wisdom',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Knight of Swords represents truth, clarity, and wisdom. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Queen of Swords',
   number: 13,
@@ -628,7 +690,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Truth, clarity, wisdom',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Queen of Swords represents truth, clarity, and wisdom. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'King of Swords',
   number: 14,
@@ -638,7 +701,8 @@ var tarotDeck = [{
   astrology: 'Libra',
   element: 'Air',
   keywords: 'Truth, clarity, wisdom',
-  majorArcana: false
+  majorArcana: false,
+  description: "The King of Swords represents truth, clarity, and wisdom. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Ace of Pentacles',
   number: 1,
@@ -648,7 +712,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Abundance, prosperity, wealth',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Ace of Pentacles represents abundance, prosperity, and wealth. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Two of Pentacles',
   number: 2,
@@ -658,7 +723,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Balance, harmony, peace',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Two of Pentacles represents balance, harmony, and peace. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Three of Pentacles',
   number: 3,
@@ -668,7 +734,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Collaboration, teamwork, partnership',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Three of Pentacles represents collaboration, teamwork, and partnership. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Four of Pentacles',
   number: 4,
@@ -678,7 +745,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Materialism, greed, hoarding',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Four of Pentacles represents materialism, greed, and hoarding. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Five of Pentacles',
   number: 5,
@@ -688,7 +756,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Poverty, scarcity, loss',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Five of Pentacles represents poverty, scarcity, and loss. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Six of Pentacles',
   number: 6,
@@ -698,7 +767,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Generosity, charity, giving',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Six of Pentacles represents generosity, charity, and giving. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Seven of Pentacles',
   number: 7,
@@ -708,7 +778,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Hard work, patience, perseverance',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Seven of Pentacles represents hard work, patience, and perseverance. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Eight of Pentacles',
   number: 8,
@@ -718,7 +789,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Hard work, patience, perseverance',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Eight of Pentacles represents hard work, patience, and perseverance. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Nine of Pentacles',
   number: 9,
@@ -728,7 +800,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Luxury, comfort, pleasure',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Nine of Pentacles represents luxury, comfort, and pleasure. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Ten of Pentacles',
   number: 10,
@@ -738,7 +811,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Wealth, prosperity, abundance',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Ten of Pentacles represents wealth, prosperity, and abundance. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Page of Pentacles',
   number: 11,
@@ -748,7 +822,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Wealth, prosperity, abundance',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Page of Pentacles represents wealth, prosperity, and abundance. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Knight of Pentacles',
   number: 12,
@@ -758,7 +833,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Wealth, prosperity, abundance',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Knight of Pentacles represents wealth, prosperity, and abundance. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'Queen of Pentacles',
   number: 13,
@@ -768,7 +844,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Wealth, prosperity, abundance',
-  majorArcana: false
+  majorArcana: false,
+  description: "The Queen of Pentacles represents wealth, prosperity, and abundance. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }, {
   name: 'King of Pentacles',
   number: 14,
@@ -778,7 +855,8 @@ var tarotDeck = [{
   astrology: 'Taurus',
   element: 'Earth',
   keywords: 'Wealth, prosperity, abundance',
-  majorArcana: false
+  majorArcana: false,
+  description: "The King of Pentacles represents wealth, prosperity, and abundance. The figure on the card is seated on a throne, with a crown on his head and a scepter in his hand. He is surrounded by a wall, which symbolizes protection and security. This card is associated with the element of fire and the zodiac sign Aries, which both represent energy, passion, and impulsiveness. When this card appears in a reading, it is a reminder to take control of your life and be assertive. Reversed, the Emperor can indicate domineering or stubbornness, so it is important to be open to new ideas and experiences."
 }];
 
 export default tarotDeck;

@@ -5,16 +5,22 @@ console.log(tarotDeck);
 const randomCard = tarotDeck[Math.floor(Math.random() * tarotDeck.length)];
 const TarorCard = (props) => {
   return (
-    <div className="col-md-9">
-      <div className="card">
-        <div className="card-body">
-          <h5 className="card-title">Card: {props.name}</h5>
-          <h6 className="card-subtitle mb-2 text-muted">Numerology:{props.number}</h6>
-          <p className="card-text">Meaning: {props.meaning}</p>
-          <p className="card-text">Reversed: {props.reversed}</p>
-          <img className='card-image img-fluid' src={props.image} alt="Card image" />
-          <p className='card-text'>{props.keywords}</p>
+    <div className='row'>
+      <div className="col-4">
+        <div className="card">
+          <div className="card-body">
+            <h5 className="card-title">Card: {props.name}</h5>
+            <hr/>
+            <img className='card-image img-fluid' src={props.image} alt="Card image" />
+            
+          </div>
         </div>
+      </div>
+      <div className='col-4'>
+        <p className="card-subtitle mb-2 text-muted">Numerology:{props.number}</p>
+        <p className="card-text">KeyWords: {props.keywords}</p>
+        <p className="card-text">Reversed: {props.reversed}</p>
+        <p className='card-text'>Description: <br />{props.description}</p>
       </div>
     </div>
   );
@@ -26,8 +32,9 @@ const App = () => {
       <Navbar />
       <div>
         <div>
-          <div className='row'>
-            <TarorCard name={randomCard.name} number={randomCard.number} meaning={randomCard.meaning} reversed={randomCard.reversed} image={randomCard.image} />
+          <div>
+            <TarorCard name={randomCard.name} number={randomCard.number} meaning={randomCard.meaning} reversed={randomCard.reversed} image={randomCard.image} description={randomCard.description} keywords={randomCard.keywords}/>
+            
             <Sidebar />
           </div>
         </div>

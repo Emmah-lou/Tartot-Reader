@@ -4,44 +4,55 @@ console.log(tarotDeck);
 var randomCard = tarotDeck[Math.floor(Math.random() * tarotDeck.length)];
 var TarorCard = function TarorCard(props) {
   return React.createElement(
-    "div",
-    { className: "col-md-9" },
+    'div',
+    { className: 'row' },
     React.createElement(
-      "div",
-      { className: "card" },
+      'div',
+      { className: 'col-4' },
       React.createElement(
-        "div",
-        { className: "card-body" },
+        'div',
+        { className: 'card' },
         React.createElement(
-          "h5",
-          { className: "card-title" },
-          "Card: ",
-          props.name
-        ),
-        React.createElement(
-          "h6",
-          { className: "card-subtitle mb-2 text-muted" },
-          "Numerology:",
-          props.number
-        ),
-        React.createElement(
-          "p",
-          { className: "card-text" },
-          "Meaning: ",
-          props.meaning
-        ),
-        React.createElement(
-          "p",
-          { className: "card-text" },
-          "Reversed: ",
-          props.reversed
-        ),
-        React.createElement("img", { className: "card-image img-fluid", src: props.image, alt: "Card image" }),
-        React.createElement(
-          "p",
-          { className: "card-text" },
-          props.keywords
+          'div',
+          { className: 'card-body' },
+          React.createElement(
+            'h5',
+            { className: 'card-title' },
+            'Card: ',
+            props.name
+          ),
+          React.createElement('hr', null),
+          React.createElement('img', { className: 'card-image img-fluid', src: props.image, alt: 'Card image' })
         )
+      )
+    ),
+    React.createElement(
+      'div',
+      { className: 'col-4' },
+      React.createElement(
+        'p',
+        { className: 'card-subtitle mb-2 text-muted' },
+        'Numerology:',
+        props.number
+      ),
+      React.createElement(
+        'p',
+        { className: 'card-text' },
+        'KeyWords: ',
+        props.keywords
+      ),
+      React.createElement(
+        'p',
+        { className: 'card-text' },
+        'Reversed: ',
+        props.reversed
+      ),
+      React.createElement(
+        'p',
+        { className: 'card-text' },
+        'Description: ',
+        React.createElement('br', null),
+        props.description
       )
     )
   );
@@ -49,19 +60,19 @@ var TarorCard = function TarorCard(props) {
 
 var App = function App() {
   return React.createElement(
-    "div",
+    'div',
     null,
     React.createElement(Navbar, null),
     React.createElement(
-      "div",
+      'div',
       null,
       React.createElement(
-        "div",
+        'div',
         null,
         React.createElement(
-          "div",
-          { className: "row" },
-          React.createElement(TarorCard, { name: randomCard.name, number: randomCard.number, meaning: randomCard.meaning, reversed: randomCard.reversed, image: randomCard.image }),
+          'div',
+          null,
+          React.createElement(TarorCard, { name: randomCard.name, number: randomCard.number, meaning: randomCard.meaning, reversed: randomCard.reversed, image: randomCard.image, description: randomCard.description, keywords: randomCard.keywords }),
           React.createElement(Sidebar, null)
         )
       )
@@ -72,26 +83,26 @@ var App = function App() {
 
 var Navbar = function Navbar() {
   return React.createElement(
-    "nav",
-    { className: "navbar navbar-expand navbar-light bg-light" },
+    'nav',
+    { className: 'navbar navbar-expand navbar-light bg-light' },
     React.createElement(
-      "a",
-      { className: "navbar-brand", href: "index.html" },
-      "Solar Eclipse, The Gemini Tarot"
+      'a',
+      { className: 'navbar-brand', href: 'index.html' },
+      'Solar Eclipse, The Gemini Tarot'
     ),
     React.createElement(
-      "div",
-      { className: "collapse navbar-collapse", id: "navbarNav" },
+      'div',
+      { className: 'collapse navbar-collapse', id: 'navbarNav' },
       React.createElement(
-        "ul",
-        { className: "navbar-nav" },
+        'ul',
+        { className: 'navbar-nav' },
         React.createElement(
-          "li",
-          { className: "nav-item" },
+          'li',
+          { className: 'nav-item' },
           React.createElement(
-            "a",
-            { className: "nav-link", href: "index.html" },
-            "Card Of The Day"
+            'a',
+            { className: 'nav-link', href: 'index.html' },
+            'Card Of The Day'
           )
         )
       )
@@ -102,66 +113,66 @@ var Navbar = function Navbar() {
 var MainContent = function MainContent() {
 
   return React.createElement(
-    "div",
+    'div',
     null,
-    React.createElement("div", { className: "tarot-card" })
+    React.createElement('div', { className: 'tarot-card' })
   );
 };
 var Sidebar = function Sidebar() {
   return React.createElement(
-    "div",
-    { className: "col-md-3" },
+    'div',
+    { className: 'col-md-3' },
     React.createElement(
-      "div",
-      { className: "border border-primary py-4 px-3" },
+      'div',
+      { className: 'border border-primary py-4 px-3' },
       React.createElement(
-        "ul",
+        'ul',
         null,
         React.createElement(
-          "li",
+          'li',
           null,
-          "Card of the Day"
+          'Card of the Day'
         ),
         React.createElement(
-          "li",
+          'li',
           null,
-          "Card of the Week"
+          'Card of the Week'
         ),
         React.createElement(
-          "li",
+          'li',
           null,
-          "Card of the Month"
+          'Card of the Month'
         ),
         React.createElement(
-          "li",
+          'li',
           null,
-          "Card of the Year"
+          'Card of the Year'
         ),
-        React.createElement("hr", null),
+        React.createElement('hr', null),
         React.createElement(
-          "li",
+          'li',
           null,
-          "Get a Reading"
-        ),
-        React.createElement(
-          "li",
-          null,
-          "Explore The Cards"
+          'Get a Reading'
         ),
         React.createElement(
-          "li",
+          'li',
           null,
-          "Learn About Tarot"
+          'Explore The Cards'
         ),
         React.createElement(
-          "li",
+          'li',
           null,
-          "Learn About Astrology"
+          'Learn About Tarot'
         ),
         React.createElement(
-          "li",
+          'li',
           null,
-          "Learn About Numerology"
+          'Learn About Astrology'
+        ),
+        React.createElement(
+          'li',
+          null,
+          'Learn About Numerology'
         )
       )
     )
@@ -170,9 +181,9 @@ var Sidebar = function Sidebar() {
 
 var Footer = function Footer() {
   return React.createElement(
-    "div",
-    { className: "border-top p-2" },
-    "Emmah-Lou-Who \xA9 2023"
+    'div',
+    { className: 'border-top p-2' },
+    'Emmah-Lou-Who \xA9 2023'
   );
 };
 
@@ -180,10 +191,10 @@ var Link = function Link(props) {
   return (
     //component for links
     React.createElement(
-      "li",
+      'li',
       null,
       React.createElement(
-        "a",
+        'a',
         { href: props.url },
         props.name
       )
