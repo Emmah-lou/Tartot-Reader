@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  },
+  "name": "tartot-reader",
+  "version": "1.0.0",
+  "main": "component.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emmah-lou/Tartot-Reader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emmah-lou/Tartot-Reader/issues"
+  },
+  "homepage": "https://github.com/Emmah-lou/Tartot-Reader#readme",
+  "description": ""
+}
